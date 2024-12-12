@@ -1,6 +1,17 @@
 title: njoverton
 url: "https://njoverton.com/"
 baseurl: "/researcher"
+# Permalink configuration
+permalink: /:title/
+
+# Ensure posts are processed
+future: true
+# Base URL (important if you're hosting on GitHub Pages)
+baseurl: ""
+
+# Site URL (if different from baseurl)
+url: ""
+
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -18,7 +29,7 @@ sass:
 nav:
  - name: "about"
    link: "/researcher/"
- - name: "Resume"
+ - name: "resume"
    link: "resume.pdf"
- - name: "Contact"
+ - name: "contact"
    link: "contact"

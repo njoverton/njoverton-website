@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}">
+    {{ page.date | date: "%B %d, %Y" }}
+  </time>
+  
+  {% if page.tags %}
+  <div class="tags">
+    Tags: 
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
