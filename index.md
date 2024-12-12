@@ -2,6 +2,20 @@
 layout: default
 ---
 
+## Blog Posts
+
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }})
+
+**{{ post.date | date: "%d %B %Y" }}**
+
+{{ post.excerpt }}
+
+[Read more...]({{ post.url }})
+
+---
+{% endfor %}
+
 ## About Me
 
 <img class="profile-picture" src="sherlock.jpg">
