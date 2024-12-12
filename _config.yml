@@ -1,5 +1,5 @@
-title: Researcher
-url: "https://ankitsultana.com"
+title: njoverton
+url: "https://njoverton.com/"
 baseurl: "/researcher"
 
 markdown: kramdown
@@ -16,7 +16,7 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
+ - name: "about"
    link: "/researcher/"
  - name: "Resume"
    link: "resume.pdf"
