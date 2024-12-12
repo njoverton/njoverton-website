@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% if page.featured_image %}
+  <div class="featured-image">
+    <img src="{{ site.baseurl }}/{{ page.featured_image }}" alt="Featured image for {{ page.title }}">
+  </div>
+{% endif %}
 <article class="post">
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">
@@ -20,3 +25,4 @@ layout: default
     {{ content }}
   </div>
 </article>
+
