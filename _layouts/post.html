@@ -6,6 +6,13 @@ layout: default
     <img src="{{ site.baseurl }}/{{ page.featured_image }}" alt="Featured image for {{ page.title }}">
   </div>
 {% endif %}
+{% if page.featured_image %}
+  <figure>
+    {% if page.caption %}
+      <figcaption>{{ page.caption }}</figcaption>
+    {% endif %}
+  </figure>
+{% endif %}
 <article class="post">
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">

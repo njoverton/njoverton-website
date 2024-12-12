@@ -27,9 +27,9 @@ sass:
     sass_dir: _sass
 
 nav:
+ - name: "pinboard"
+   link: "/pinboard/"
+ - name: "guestbook"
+   link: "/guestbook/"
  - name: "about"
-   link: "/researcher/"
- - name: "resume"
-   link: "resume.pdf"
- - name: "contact"
-   link: "contact"
+   link: "/about/"

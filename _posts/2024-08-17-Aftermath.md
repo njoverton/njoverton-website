@@ -4,6 +4,7 @@ title: "Aftermath"
 date: 2024-08-17
 tags: [personal, abstract]
 featured_image: assets/images/edvard_munch_the_sun.jpg
+caption: "Edvard Munch - The Sun"
 ---
 
 Recently, I had my heart broken.
@@ -28,9 +29,10 @@ But you're somewhere else now. As you flow through the blurred greys of the damp
 
 You're never truly alone, and you're reminded of this constantly. We understand each other more than we'll ever know.
 
-"I am human: nothing human is alien to me." - Terence, 165 B.C.
+> "I am human: nothing human is alien to me." - Terence, 165 B.C.
 
 Until next time,
+
 Niall
 
 Notes:
