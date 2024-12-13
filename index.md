@@ -15,5 +15,7 @@ layout: default
 
 <p class="subtitle">{{ post.subtitle }}</p>
 
----
+  {% unless forloop.last %}
+<hr>
+  {% endunless %}
 {% endfor %}
