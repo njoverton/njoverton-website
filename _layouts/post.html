@@ -16,12 +16,11 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">
-    {{ page.date | date: "%B %d, %Y" }}
+    posted on {{ page.date | date: "%d %B %Y" }}
   </time>
   
   {% if page.tags %}
   <div class="tags">
-    Tags: 
     {% for tag in page.tags %}
       <span class="tag">{{ tag }}</span>
     {% endfor %}
@@ -29,7 +28,11 @@ layout: default
   {% endif %}
 
   <div class="content">
+	<hr>
     {{ content }}
   </div>
 </article>
+
+<!-- livereload functionality -->
+<script src="http://127.0.0.1:35729/livereload.js"></script>
 

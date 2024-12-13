@@ -17,6 +17,7 @@ body {
     margin: 0;
     font-family: "Verdana", Times, serif;
     height: 100%;
+	background-color: #FFFFDD;
 }
 a {
     text-decoration: none;
@@ -66,6 +67,24 @@ hr {
     float: right;
 }
 
+.highlight-red {
+	background-color: #ffaaaa;
+}
+.highlight-orange {
+	background-color: #ffd486;
+}
+.highlight-green {
+	background-color: #aaffad;
+}
+.highlight-blue {
+	background-color: #d8e7ff;
+}
+
+.subtitle {
+	font-family: "Verdana", Times, serif;
+}
+
+
 /* Divs */
 
 .container {
@@ -77,7 +96,7 @@ hr {
 }
 figure {
   text-align: center; /* Centers the image and caption */
-  margin: 1.5em 0;
+  margin: 0.2em 0;
 }
 
 figure img {
@@ -85,10 +104,21 @@ figure img {
   height: auto;
 }
 
+.post h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.post time {
+  display: block;
+  margin-top: 5px;
+  font-style: italic;
+}
+
 figcaption {
   font-size: 0.9em; /* Adjust the font size if needed */
   color: #666; /* Light color for the caption */
-  margin-top: 0.5em; /* Adds space between image and caption */
+  margin-top: 0.1em; /* Adds space between image and caption */
   font-style: italic; /* Makes the caption italic */
 }
 
@@ -145,21 +175,6 @@ figcaption {
 	#navlist li.nav-list {
 		margin: 0;
 	}
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
-
-.tag {
-  background-color: #f0f0f0;
-  color: #333;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.9em;
 }
 
 @import "typography";

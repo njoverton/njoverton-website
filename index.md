@@ -13,6 +13,7 @@ layout: default
   {% endif %}
 </div>
 
-{{ post.excerpt }}
+<p class="subtitle">{{ post.subtitle }}</p>
+
 ---
 {% endfor %}

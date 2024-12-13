@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Placeholder Post"
+subtitle: "this should show up on the front page"
 date: 2024-12-12
 tags: [broad, ozempic, modern]
 ---

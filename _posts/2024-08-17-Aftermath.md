@@ -5,6 +5,7 @@ date: 2024-08-17
 tags: [personal, abstract]
 featured_image: assets/images/edvard_munch_the_sun.jpg
 caption: "Edvard Munch - The Sun"
+subtitle: "Recently, I had my heart broken."
 ---
 
 Recently, I had my heart broken.
