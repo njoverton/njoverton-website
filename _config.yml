@@ -1,13 +1,13 @@
 title: njoverton
 url: "https://njoverton.com/"
-baseurl: "/"
+#baseurl: "/"
 # Permalink configuration
 permalink: /:title/
 
 # Ensure posts are processed
 future: true
 # Base URL (important if you're hosting on GitHub Pages)
-baseurl: "/"
+# baseurl: ""
 
 # Site URL (if different from baseurl)
 url: ""
