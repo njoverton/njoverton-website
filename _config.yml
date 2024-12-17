@@ -1,6 +1,6 @@
 title: njoverton
 url: "https://njoverton.com/"
-baseurl: "/"
+baseurl: ""
 # Permalink configuration
 permalink: /:title/
 
