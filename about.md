@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-hi! I'm Niall, a ~~politics~~ ~~philosophy~~ ~~economics~~ ~~electrical engineering~~ ~~chinese~~ civil engineering student. I write about things that interest me. 
+Hi! I'm Niall, a 20-year-old civil engineering student, croupier, and aspiring bohemian. I write whatever comes to mind. Interests of mine include film photography, postmodern literature, and concrete.
 
 Custom domain obtained through Cloudflare, hosting done using Cloudflare Pages ([njoverton-website.pages.dev](njoverton-website.pages.dev)), and the site was built using Jekyll.
 
-For official enquiries/site issues email me at <niall.overton5@gmail.com>.
+Unless otherwise stated all writing is my own. For official enquiries/site issues email me at <niall.overton5@gmail.com>.

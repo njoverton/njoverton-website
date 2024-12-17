@@ -1,24 +1,17 @@
 ---
 layout: default
 ---
-{% if page.featured_image %}
-  <div class="featured-image">
-    <img src="{{ site.baseurl }}/{{ page.featured_image }}" alt="Featured image for {{ page.title }}">
-  </div>
-{% endif %}
-{% if page.featured_image %}
-  <figure>
-    {% if page.caption %}
-      <figcaption>{{ page.caption }}</figcaption>
-    {% endif %}
-  </figure>
-{% endif %}
+
 <article class="post">
   <h1>{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}">
     posted on {{ page.date | date: "%d %B %Y" }}
   </time>
-  
+
+  {% if page.updated %}
+    <span class="updated">last updated on {{ page.updated | date: "%d %B %Y" }}</span>
+  {% endif %}
+
   {% if page.tags %}
   <div class="tags">
     {% for tag in page.tags %}
@@ -27,8 +20,23 @@ layout: default
   </div>
   {% endif %}
 
+  <hr>
+
+  {% if page.featured_image %}
+  <div class="featured-image">
+    <img src="{{ site.baseurl }}/{{ page.featured_image }}" alt="Featured image for {{ page.title }}">
+  </div>
+  {% endif %}
+
+  {% if page.featured_image %}
+  <figure>
+    {% if page.caption %}
+      <figcaption>{{ page.caption }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+
   <div class="content">
-	<hr>
     {{ content }}
   </div>
 </article>

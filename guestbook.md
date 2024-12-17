@@ -6,4 +6,4 @@ permalink: /guestbook/
 
 # Guestbook
 
-Leave your comments or messages here~!
+Also under construction.
