@@ -16,6 +16,6 @@ I have a hypothesis that males, where possible, prefer pissing on trees, streetl
 I reckon we prefer to piss on trees in the same way that we prefer thick steak to bran flakes; a stable job to a life of crime; carpet to cardboard; symmetry to entropy. We're animals, after all.
 
 ---
-[^1]: I know many counterexamples.
+[^1]: I know many exceptions.
 [^2]: My personal preference is Dylan Blue.
 [^3]: Funnily enough, humans can distinguish [male and female urine by smell](https://www.researchgate.net/publication/276481976_Pheromones_in_Human_Urine_A_Study). Furthermore, we're better at identifying female urine when it was collected during ovulation.
