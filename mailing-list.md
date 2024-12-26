@@ -30,7 +30,7 @@ document.getElementById('signup-form').addEventListener('submit', async (e) => {
   const statusElement = document.getElementById('status');
   
   try {
-    const response = await fetch('mailing-list.nialls-account.workers.dev/api/subscribe', {
+    const response = await fetch('https://mailing-list.nialls-account.workers.dev/api/subscribe', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
