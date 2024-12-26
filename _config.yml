@@ -29,7 +29,7 @@ sass:
 nav:
  - name: "pinboard"
    link: "/pinboard/"
- - name: "guestbook"
-   link: "/guestbook/"
+ - name: "mailing list"
+   link: "/mailing-list/"
  - name: "about"
    link: "/about/"
