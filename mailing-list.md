@@ -6,6 +6,8 @@ permalink: /mailing-list/
 
 # Mailing list
 
+Don't use this yet it's not gonna work
+
 <form id="signup-form" class="max-w-md mx-auto p-4">
   <input 
     type="email" 
