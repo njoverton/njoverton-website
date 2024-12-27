@@ -20,14 +20,14 @@ date: 2024-12-27
 
 Subscribe for new posts to be sent to your inbox.
 
-<div id="form-container">
-  <form id="signup-form">
+<div id="form-container" style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; text-align: center;">
+  <form id="signup-form" style="display: flex; align-items: center; justify-content: center; gap: 0.5em; margin: 0.5em 0;">
     <input 
       type="email" 
       id="email" 
       required 
       placeholder="enter your email"
-      style="padding: 0.5em; margin-right: 0.5em; border: 1px solid #333;"
+      style="padding: 0.5em; border: 1px solid #333;"
     >
     <button 
       type="submit"
@@ -35,7 +35,6 @@ Subscribe for new posts to be sent to your inbox.
     >
       subscribe
     </button>
-    <p id="status" style="margin-top: 1em; font-size: 0.9em;"></p>
   </form>
 </div>
 
