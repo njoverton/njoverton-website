@@ -18,7 +18,7 @@ date: 2024-12-27
   <figcaption>The Sun by Edvard Munch, 1909</figcaption>
 </figure>
 
-Subscribe for new posts to be sent to your inbox.
+<p>Subscribe for new posts to be sent to your inbox.</p>
 
 <div id="form-container" style="display: flex; flex-direction: column; align-items: center; margin: 0 auto; text-align: center;">
   <form id="signup-form" style="display: flex; align-items: center; justify-content: center; gap: 0.5em; margin: 0.5em 0;">
@@ -36,6 +36,8 @@ Subscribe for new posts to be sent to your inbox.
       subscribe
     </button>
   </form>
+  <!-- Add this status paragraph -->
+  <p id="status" style="margin: 0.5em 0"></p>
 </div>
 
 <script>
