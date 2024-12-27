@@ -32,6 +32,8 @@ date: 2024-12-27
     <button 
       type="submit"
       style="padding: 0.5em 1em; background: #e4d5b7; border: 1px solid #333; cursor: pointer; color: #333;"
+	  onmouseover="this.style.background='#d4c0a5';" 
+      onmouseout="this.style.background='#e4d5b7';"
     >
       subscribe
     </button>
