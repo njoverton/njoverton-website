@@ -1,29 +1,43 @@
 ---
 layout: default
-title: mailing list
+title: Mailing list
 permalink: /mailing-list/
+date: 2024-12-27
 ---
 
-# Mailing list
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}">
+    last updated on {{ page.date | date: "%d %B %Y" }}
+  </time>
+  <hr>
+</article>
 
-Don't use this yet it's not gonna work
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/edvard_munch_the_sun.jpg" alt="The Sun Edvard Munch" style="max-width: 100%; height: auto;">
+  <figcaption>The Sun by Edvard Munch, 1909</figcaption>
+</figure>
 
-<form id="signup-form" class="max-w-md mx-auto p-4">
-  <input 
-    type="email" 
-    id="email" 
-    required 
-    placeholder="Enter your email"
-    class="w-full p-2 border rounded mb-2"
-  >
-  <button 
-    type="submit"
-    class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
-  >
-    Subscribe
-  </button>
-  <p id="status" class="mt-2 text-center"></p>
-</form>
+Subscribe for new posts to be sent to your inbox.
+
+<div id="form-container">
+  <form id="signup-form">
+    <input 
+      type="email" 
+      id="email" 
+      required 
+      placeholder="enter your email"
+      style="padding: 0.5em; margin-right: 0.5em; border: 1px solid #333;"
+    >
+    <button 
+      type="submit"
+      style="padding: 0.5em 1em; background: #e4d5b7; border: 1px solid #333; cursor: pointer; color: #333;"
+    >
+      subscribe
+    </button>
+    <p id="status" style="margin-top: 1em; font-size: 0.9em;"></p>
+  </form>
+</div>
 
 <script>
 document.getElementById('signup-form').addEventListener('submit', async (e) => {
